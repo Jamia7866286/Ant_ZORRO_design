@@ -1,0 +1,104 @@
+.login{
+    width: 30%;
+    margin: 40px auto;
+}
+
+
+// Crete new fully manage section
+.brand-scene{
+    background: #fff;
+    padding: 40px 0;
+
+    .brand-heading{
+        h1{
+            font-weight: 300;
+            color: #292078;
+            text-align: center;
+            font-size: 26px;
+            margin-bottom: 8px;
+            color: #292078;
+            // font-family: "SF Pro Display";
+        }
+    }
+
+    .brand-card {
+        text-align: center;
+        border-radius: 4px;
+        border: 1px solid #F1F2F4;
+        padding: 15px;
+        min-height: 202px;
+        margin-bottom: 20px;
+        transition: .2s ease-in-out;
+        h4 {
+            color: #050D1A;
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+        p {
+            color: #616C80;
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+        i{
+            color: #000;
+            font-size: 30px;
+            margin: 10px 0;
+        }
+        &:hover{
+            box-shadow: 0 0 1px 0 rgba(5,13,26,0.12), 0 26px 26px 0 rgba(5,13,26,0.12);
+
+            h4{
+                color: #5444C4;
+            }
+            p:first-of-type{
+                color: #292078;
+            }
+        }
+    }
+
+    .customize-btn{
+        background-color: #FCF8EB;
+        border: 1px solid #FCF8EB;
+
+        &:hover{
+            box-shadow: none;
+        }
+
+        h4 {
+            color: #573B00;
+            font-size: 26px;
+        }
+        p{
+            color: #9C6F19;
+            margin-bottom: 10px;
+        }
+        button{
+            background-color: #FFEA8A;
+            color: #9C6F19;
+            font-size: 16px;
+            font-weight: 500;
+            border-color: #FFEA8A;
+        }
+    }
+
+    .get-started-btn{
+        text-align: center;
+        button{
+            background-color: #5444C4;
+            border-color: #5444C4;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+
+    .ml{
+        margin-left: 0 !important;
+    }
+
+    .mr{
+        margin-right: 0 !important;
+    }
+}
+
+// End Crete new fully manage section

@@ -1,0 +1,23 @@
+
+    <nz-layout class="layout">
+      <nz-header>
+        <div class="logo">
+          <img src="../assets/logo.svg" alt="">
+        </div>
+        <ul nz-menu [nzTheme]="'dark'" [nzMode]="'horizontal'" style="line-height: 64px;">
+          <li nz-menu-item>
+              <a [routerLink]="['/home']">Home</a></li>
+          <li nz-menu-item>
+            <a [routerLink]="['/about']">About</a>
+          </li>
+          <li nz-menu-item>
+            <a [routerLink]="['/contact']">Contact</a>
+          </li>
+          <li nz-menu-item>
+              <a [routerLink]="['/login']">Login</a>
+            </li>
+        </ul>
+      </nz-header>
+      <router-outlet></router-outlet>
+      
+    </nz-layout>
